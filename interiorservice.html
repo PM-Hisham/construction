@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Arkitektur - Architecture HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
+        <img class="position-absolute top-50 start-50 translate-middle" src="img/icons/icon-1.png" alt="Icon">
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-3">
+                    <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</a>
+                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i>info@example.com</a>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-2">
+                    <a class="text-body px-2" href="">Terms</a>
+                    <a class="text-body px-2" href="">Privacy</a>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="text-primary m-0"><img class="me-3" src="img/icons/icon-1.png" alt="Icon">Arkitektur</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link active">Services</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu border-0 m-0">
+                        <a href="feature.html" class="dropdown-item">Our Features</a>
+                        <a href="project.html" class="dropdown-item">Our Projects</a>
+                        <a href="team.html" class="dropdown-item">Team Members</a>
+                        <a href="appointment.html" class="dropdown-item">Appointment</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Appointment</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <h1 class="display-1 text-white animated slideInDown">Interior Services</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="service.html">Services</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Interior Design Consultancy Services</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h4 class="section-title">Service Type</h4>
+                <h1 class="display-5 mb-4">INTERIOR DESIGN CONSULTANCY SERVICES</h1>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+
+    <style>
+       
+        .first {
+            width: 100%;
+            margin: 80px auto;
+            padding: 20px;
+            /* background-color: #e0e0e0; */
+            background: rgb(255,255,255);
+            background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 100%);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.41);
+            margin-top: -30px;
+        }
+        .bracketed-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #000;
+            padding: 10px;
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .bracketed-text {
+            width: 45%;
+            text-align: center;
+        }
+        .bracket {
+            width: 10%;
+            text-align: center;
+            font-size: 2em;
+            font-weight:300;
+            font-family: Arial, sans-serif;
+        }
+        /* h1 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            font-size: 1.1em;
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        } */
+        /* li::before {
+            content: '●';
+            font-size: 1.5em;
+            color: #333;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #007BFF;
+        } */
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="first">
+            <h2><u>Interior Design Consultancy Services & Scope</u></h2>
+            <ul>
+                <li><i class="bi bi-arrow-right"></i> We are pleased to be the Interior Designers for your Residence</li>
+                <li><i class="bi bi-arrow-right"></i> We will be offering you the following services:</li>
+                <li>&#9679; Formulation of Requirements.</li>
+                <li>&#9679; Preparation of Schematic interior Overall Layouts based on requirements.</li>
+                <li>&#9679; Feedback from the client and incorporating them in the overall Scheme drawings.</li>
+                <li>&#9679; Preparation of individual layout in a scheme manner.</li>
+                <li>&#9679; Client feedback and incorporating the feedback and finalization of the Scheme</li>
+                <li>&#9679; Issue of Scheme drawings for living, dining, bedrooms, toilets, etc.</li>
+                <li>&#9679; Issue of “Good for Construction” drawings for all the interior areas.</li>
+                <li><i class="bi bi-arrow-right"></i> We will also assist to identify various materials like Veneer, Laminates, glass, 
+                    handles, Accessories etc. Our services also include periodical supervision and visiting 
+                    various shops for the identification of appropriate elements.</li>
+                <li><i class="bi bi-arrow-right"></i> Interiors, generally consume lot of our professional time to be spent in a very 
+                    short duration. We have to co-ordinate with multiple agencies and make them 
+                    deliver very high quality finish.</li>
+                <!-- <li>Preparation of Sketch Scheme 3</li> -->
+            </ul>
+        </div>
+    
+    
+        <div class="first">
+            <h2><u>Interior Design Consultancy Services & Scope</u></h2>
+            <ul class="arrow">
+                <li><i class="bi bi-arrow-right"></i> Interior Layouts of the Floor</li>
+                <li><i class="bi bi-arrow-right"></i> Partition Details</li>
+                <li><i class="bi bi-arrow-right"></i> Furniture Details</li>
+                <li><i class="bi bi-arrow-right"></i> Electrical Layouts</li>
+                <li><i class="bi bi-arrow-right"></i> False Ceiling Layout</li>
+                <li><i class="bi bi-arrow-right"></i> Reflected Ceiling Plans</li>
+                <li><i class="bi bi-arrow-right"></i> Bed, wardrobes, side tables, dining</li>
+                <li><i class="bi bi-arrow-right"></i> Table, other furniture design and detailing</li>
+                <li><i class="bi bi-arrow-right"></i> Frosted glass, Stained glass details etc</li>
+                <li><i class="bi bi-arrow-right"></i> General specifications of various materials</li>
+                <li><i class="bi bi-arrow-right"></i> And their construction systems</li>
+                <li><i class="bi bi-arrow-right"></i> Air conditioning Locations</li>
+                <li><i class="bi bi-arrow-right"></i> Electrical lines and other related materials</li>
+            </ul>
+        </div> 
+    
+    
+        <div class="first">
+            <h2><u>Travel and incidental expenses – For Outstation Projects</u></h2>
+            <ul class="arrow">
+                <li>&#9679; Site consultancy charges shall be paid for each site visit made by the Chief Architect / Senior Consultants per day fees Rs.15,000/-</li>
+                <li>&#9679; Site consultancy charges shall be paid for each site visit made by the Sr. Engineer per day fees Rs.7,500/- / Junior Architects and Jr. Engineer per day fees Rs.7,500/-</li>
+                <li>&#9679; To and Fro First Class / Second A.C train fare shall be paid for each site visit made by the Architect / Senior Consultants.(If Chief Architect visits the site, then to and fro Air Ticket shall be paid)</li>
+                <li>&#9679; To and fro First Class train fare shall be paid for each site visit made by the Engineer / Junior Architects.</li>
+                <li>&#9679; Lodging and Boarding and other incidental expenses as per actual expenditure.</li>
+                <li>&#9679; The architect shall supply to the clients free of cost three sets of drawing prints. Any additional sets required by the clients shall be paid for on actual cost basis</li>
+                <li>&#9679; GST at 18.00%or whatever tax rate prevailing from time to time based on government guidelines is applicable on all payments made by cheque.</li>
+    
+            </ul>
+        </div>
+
+        <div class="first">
+            <h2><u>If the client wants high quality, sophisticated/special physical model</u></h2>
+            <div class="bracketed-container">
+                <div class="bracketed-text">
+                    Model / Artistic Coloured Perspective Views, 3D Animation, Graphics the artist/model maker.
+                </div>
+                <div class="bracket">
+                     &#125;
+                </div>
+                <div class="bracketed-text">
+                    shall be paid by the client as per actual bills of the artist/model maker.
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+    <h2><u>Interior Design Consultancy Services & Scope</u></h2> <br>
+
+    <div class="interior">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Formulation of Requirements.</li>
+            <li>Preparation of Schematic Interior Overall Layouts based on requirements.</li>
+            <li>Incorporating client feedback into the overall scheme drawings.</li>
+            <li>Preparation of individual layout in a schematic manner.</li>
+            <li>Finalization of the scheme based on client feedback.</li>
+            <li>Issuance of Scheme Drawings for living, dining, bedrooms, toilets, etc.</li>
+            <li>Issuance of “Good for Construction” drawings for all interior areas.</li>
+            <li>Assistance in selecting materials like Veneer, Laminates, Glass, Handles, Accessories, etc.</li>
+            <li>Periodic supervision and visits to shops for identifying appropriate elements.</li>
+        </ul>
+    </div>
+
+    <div class="interior">
+        <h2>Scope of Work</h2>
+        <ul>
+            <li>Interior Layouts of the Floor</li>
+            <li>Partition Details</li>
+            <li>Furniture Details</li>
+            <li>Electrical Layouts</li>
+            <li>False Ceiling Layout</li>
+            <li>Reflected Ceiling Plans</li>
+            <li>Design and Detailing of Bed, Wardrobes, Side Tables, Dining Table, and other furniture</li>
+            <li>Frosted Glass, Stained Glass Details, etc.</li>
+            <li>General Specifications of various materials and their construction systems</li>
+            <li>Air Conditioning Locations</li>
+            <li>Electrical Lines and other related materials</li>
+        </ul>
+    </div>
+
+    <div class="interior fees">
+        <h2>Fees and Expenses</h2>
+        <ul>
+            <li><span>Site Consultancy Charges:</span>
+                <ul>
+                    <li>Chief Architect / Senior Consultants: Rs. 15,000/- per day</li>
+                    <li>Senior Engineer / Junior Architects / Junior Engineer: Rs. 7,500/- per day</li>
+                </ul>
+            </li>
+            <li><span>Travel Expenses:</span>
+                <ul>
+                    <li>To and Fro First Class / Second A.C train fare for site visits by Architect / Senior Consultants.</li>
+                    <li>To and Fro First Class train fare for site visits by Engineer / Junior Architects.</li>
+                    <li>If Chief Architect visits the site, then To and Fro Air Ticket shall be paid.</li>
+                </ul>
+            </li>
+            <li><span>Lodging and Boarding:</span> As per actual expenditure.</li>
+            <li><span>Drawing Prints:</span> Three sets of drawing prints supplied free of cost. Additional sets charged at actual cost.</li>
+            <li><span>GST:</span> 18.00% or the prevailing tax rate as per government guidelines on all payments made by cheque.</li>
+        </ul>
+    </div>
+
+    <div class="interior">
+        <h2>Special Services</h2>
+        <p>If the client requires a high-quality, sophisticated/special physical model, 3D Animation, or Artistic Coloured Perspective Views, it shall be paid by the client as per the actual bills of the artist/model maker.</p>
+    </div>
+        
+
+
+
+
+    <style>
+       
+        
+
+        
+    </style>
+ -->
+
+
+
+
+
+
+
+
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Address</h3>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-body me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Services</h3>
+                    <a class="btn btn-link" href="">Architecture</a>
+                    <a class="btn btn-link" href="">3D Animation</a>
+                    <a class="btn btn-link" href="">House Planning</a>
+                    <a class="btn btn-link" href="">Interior Design</a>
+                    <a class="btn btn-link" href="">Construction</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Quick Links</h3>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Newsletter</h3>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
